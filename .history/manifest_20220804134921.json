@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "",
+    "version": "1.0",
+    "description": "сохранение картинок",
+    "icons": {
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "<all_urls>" ],
+            "js": [ "app.js" ]
+        }
+    ]
+    
+ }
